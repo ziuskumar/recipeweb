@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Dish a Day | Home</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="jj.css">
+    </head>
+    <body>
+       
+        <nav>
+            <ul class="menu-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#latest_recipes">Latest Recipes</a></li>
+                <li><a href="#cuisines">Cuisines</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="http://127.0.0.1:5500/explore.html">Explore Recipes</a></li>
+                <li><a href="http://127.0.0.1:5500/recipe.html" style="text-decoration: none;">Create Recipe</a></li>
+                <li><a href="login.html"><button class="bun">Log in</button></a></li>
+                <li><a href="signn.html"><button class="bun">Sign Up</button></a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <table>
+                <tr>
+                    <td>
+                        <h1>Learn. Cook. Share.<br>Cooking Made Easy.</h1>
+                        <p>Say good bye to long and frustrating food blogs and recipe videos.<br>Access our recipe cards to prepare any dish in minutes.</p>
+                    </td>
+                   
+                </tr>
+            </table>
+            
+           
+
+            <div class="variable_zone">
+            <h2 id="latest_recipes">Latest Recipes</h2>
+            <div class="recipe-list1">
+                <div class="recipe-card">
+                   <a href="" target="_blank">
+                        <img src="https://farm8.staticflickr.com/7743/17233968188_c5b24fd7d8_o.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Kumbakonam Filter Coffee</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="" target="_blank">
+                        <img src="https://1.bp.blogspot.com/-c93_OZvOywU/VMP2ot-utmI/AAAAAAAAI0s/RZa546UBnQo/s1600/Lucknowi%2BBiryani.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Lucknow Biriyani</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="" target="_blank">
+                        <img src="https://www.cookingclassy.com/wp-content/uploads/2020/03/lasagna-01-1.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Lasagne</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="" target="_blank">
+                        <img src="https://www.spiceupthecurry.com/wp-content/uploads/2014/04/Homemade-falooda-recipe-3.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Falooda</h4>
+                </div>
+            </div>
+            <h2 id="cuisines">South Indian Cuisine</h2>
+            <div class="recipe-list2">
+                <div class="recipe-card">
+                    <a href="" target="_blank">
+                        <img src="https://farm8.staticflickr.com/7743/17233968188_c5b24fd7d8_o.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Kumbakonam Filter Coffee</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="" target="_blank">
+                        <img src="https://www.cookclickndevour.com/wp-content/uploads/2017/09/ven-pongal-recipe-b.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Ven Pongal</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="" target="_blank">
+                        <img src="https://i1.wp.com/www.happyandharried.com/wp-content/uploads/2018/04/IMG_2115.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Idli Dosa</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="" target="_blank">
+                        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/12/podi-idli.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Podi Idli</h4>
+                </div>
+            </div>   
+            <h2>North Indian Cuisine</h2>
+            <div class="recipe-list3">
+                <div class="recipe-card">
+                    <a href="" target="_blank">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.MT7MfdrWJ9HWRy1W2CnrogHaLG&pid=Api&P=0&h=180" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Chole Bhature</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/north_indian/North_Lucknow_Biryani.html" target="_blank">
+                        <img src="https://1.bp.blogspot.com/-c93_OZvOywU/VMP2ot-utmI/AAAAAAAAI0s/RZa546UBnQo/s1600/Lucknowi%2BBiryani.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Lucknow Biriyani</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/north_indian/north_bajra_khichdi.html" target="_blank">
+                        <img src="https://www.zaykakatadka.com/wp-content/uploads/2019/01/IMG-20190118-WA0000.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Bajra Khichdi</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/north_indian/north_gatte_ki_sabji.html" target="_blank">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.kwis9O6hZJHM0o4XL0O7GgHaLH&pid=Api&P=0&h=180" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Gatte Ki Subji</h4>
+                </div>
+            </div>    
+            <h2>Chinese Cuisine</h2>
+            <div class="recipe-list4">
+                <div class="recipe-card">
+                    <a href="recipes/chinese/chinese_chow_mein.html" target="_blank">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.X8aULrvjxC7b3JGQHjJ9HQHaLH&pid=Api&P=0&h=180" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Chow Mein</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/chinese/chinese_fried_rice.html" target="_blank">
+                        <img src="https://www.spiceupthecurry.com/wp-content/uploads/2021/02/schezwan-fried-rice-1.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Schezwan Fried Rice</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/chinese/chinese_Manchurian.html" target="_blank">
+                        <img src="https://mydaintykitchen.com/wp-content/uploads/2018/08/20180821_135911-1-1024x768.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Veg Ball Manchurian</h4>
+                </div>
+            
+            </div>
+
+            <h2>Beverages/Drinks</h2>
+            <div class="recipe-list5">
+                <div class="recipe-card">
+                    <a href="recipes/drinks/drinks_lassi.html" target="_blank">
+                        <img src="https://shwetainthekitchen.com/wp-content/uploads/2021/05/Sweet-lassi-768x1152.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Sweet Lassi</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/drinks/drinks_falooda.html" target="_blank">
+                        <img src="https://www.thedeliciouscrescent.com/wp-content/uploads/2020/02/Falooda_3.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Falooda</h4>
+                </div>
+                
+                <div class="recipe-card">
+                    <a href="recipes/drinks/drinks_jaljeera.html" target="_blank">
+                        <img src="https://www.whiskaffair.com/wp-content/uploads/2014/05/Jaljeera-1.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Jaljeera</h4>
+                </div>
+            </div>
+
+            <h2>Desserts</h2>
+            <div class="recipe-list6">
+                <div class="recipe-card">
+                    <a href="recipes/dessert/desert_chakkara_pongal.html" target="_blank">
+                        <img src="https://rakskitchen.net/wp-content/uploads/2012/10/8096039325_d4fc69a7a8_z.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Chakra Pongal</h4>
+                </div>
+               
+                <div class="recipe-card">
+                    <a href="recipes/dessert/desert_mysore_pak.html" target="_blank">
+                        <img src="https://i0.wp.com/rakskitchen.net/wp-content/uploads/2013/10/mysore-pak-recipe.jpg?resize=500%2C625" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Mysore Pak</h4>
+                </div>
+                
+                <div class="recipe-card">
+                    <a href="recipes/dessert/dessert_gajar_ka_halwa.html" target="_blank">
+                        <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2019/11/Gajar-Ka-Halwa-2.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Gajar ka Halwa</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/dessert/dessert_gond_ke_ladoo.html" target="_blank">
+                        <img src="https://www.cookclickndevour.com/wp-content/uploads/2018/01/gond-ke-ladoo-recipe-c-768x1152.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Gond ke Ladoo</h4>
+                </div>
+            </div>
+            </div>
+            <br>
+            <br>
+
+
+        </div>
+        <div id="contact">
+            <h2>About Us</h2>
+            <h3>Our Team</h3>
+            <div class="contact-card">
+                <div class="contact-item">
+                    <img src="/hridey.jpg" height="100px" width="100px">
+                    <h4>Hriday Sakar</h4>
+                    <p>Team Member</p>
+                </div>
+                <div class="contact-item">
+                    <img src="/zius.jpg" height="100px" width="100px">
+                    <h4>Zius Kumar</h4>
+                    <p>Team Member</p>
+                </div>
+                <div class="contact-item">
+                    <img src="/ayan.jpg" height="100px" width="100px">
+                    <h4>Ayan Anwar</h4>
+                    <p>Team member</p>
+                </div>
+             </div>
+    </body>
+</html
